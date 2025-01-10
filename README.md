@@ -13,7 +13,7 @@ This project aims to segment kidneys and kidney tumors from 3D CT scans using ad
 - **Results**: Detailed analysis and performance metrics of the models
 - **Applications**: Early detection and treatment planning for kidney cancer
 
-## Installation
+## Intallation
 
 To get started with the project, clone the repository and install the necessary dependencies:
 
@@ -22,7 +22,7 @@ git clone https://github.com/your-username/kidney-tumor-segmentation.git
 cd kidney-tumor-segmentation
 pip install -r requirements.txt
 ```
-##Published Reasearch Paper for more technical details
+## Published Reasearch Paper for more technical details
 Link : https://ieeexplore.ieee.org/document/10752238
 
 
