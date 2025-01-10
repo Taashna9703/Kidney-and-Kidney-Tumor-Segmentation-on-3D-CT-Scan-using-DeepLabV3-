@@ -22,41 +22,9 @@ git clone https://github.com/your-username/kidney-tumor-segmentation.git
 cd kidney-tumor-segmentation
 pip install -r requirements.txt
 ```
+##Published Reasearch Paper for more technical details
+Link : https://ieeexplore.ieee.org/document/10752238
 
-## Usage
-
-### Training the Model
-
-To train the model, run the following command:
-
-```bash
-python train.py --config config.yaml
-```
-
-### Evaluating the Model
-
-To evaluate the model performance, use:
-
-```bash
-python evaluate.py --model model_checkpoint.pth
-```
-
-### Visualizing Results
-
-To visualize the segmentation results, execute:
-
-```bash
-python visualize.py --input sample_ct_scan.nii.gz --output segmented_result.png
-```
-
-## Project Structure
-
-- `data/`: Contains the KiTS23 dataset
-- `models/`: Contains the trained models and checkpoints
-- `scripts/`: Python scripts for training, evaluation, and visualization
-- `notebooks/`: Jupyter notebooks for exploratory data analysis and prototyping
-- `results/`: Directory to save output results and visualizations
-- `README.md`: Project documentation
 
 ## Contributing
 
@@ -68,17 +36,11 @@ We welcome contributions to improve the project. Please follow these steps:
 4. Push to the branch (`git push origin feature-branch`)
 5. Create a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 For any questions or feedback, please reach out to:
 
 Taashna Jariwala  
-AI-DS, VII  
-ET21BTAI026  
 Email: taashnajariwala0709@gmail.com
 
 ---
